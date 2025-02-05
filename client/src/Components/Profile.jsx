@@ -41,7 +41,7 @@ const handleMobileFun = ()=>{
             
             <div className="md:w-[30%] h-[200px]  flex justify-center items-center z-10">
             <div className="md:w-[80%] w-[90%] h-[130px] bg-gray-800 rounded-lg flex flex-col items-center justify-evenly">
-            <button className="md:hidden fixed top-[70px] right-7" onClick={handleMobileFun}><img src="https://cdn-icons-png.flaticon.com/128/5973/5973937.png" className="w-[25px] h-[25px]" alt="" /></button>
+            <button className="md:hidden fixed top-[70px] right-7" onClick={handleMobileFun}></button>
 
                 <div className="w-[85%] flex items-center">
                 <img className='rounded-full md:w-[70px] md:h-[70px] w-[70px] h-[70px] hover:scale-105 hover:rotate-1 shadow-lg transform-all duration-300 ease-in-out' src="../../ds_j6rNE_400x400.jpg" alt="" />
@@ -50,6 +50,12 @@ const handleMobileFun = ()=>{
                 <p>Web Developer</p>
                 </div>
                 </div>
+
+                <div className="flex justify-evenly w-[100%] text-[#90b8f8]">
+                <a href="https://github.com/pranav-94" target="blank">Github</a>
+                <a href="https://x.com/Uchiha_D_Levi" target="blank">Twitter</a>
+                <a href="https://x.com/Uchiha_D_Levi" target="blank">LinkedIn</a>
+            </div>
 
             </div>
             </div>
