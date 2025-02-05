@@ -89,6 +89,28 @@ const Info = ()=>{
 const ProjectComp = ()=>{
     return(
         <>
+<div className="flex flex-row items-center  justify-evenly mb-10"> 
+             <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
+ <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
+ <br />                         <img className="w-[40px] h-[40px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
+
+ <br />                         <img className="w-[35px] h-[40px]" src="https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png" alt="" />
+</div>
+                <div>
+                    <a href="https://ink-flow-green.vercel.app/">
+                <img src="/BlogApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
+                </a>
+
+                <div className="flex justify-evenly items-center w-[100%]">
+                <p className="mt-2">InkFlow</p>
+                <a href="https://github.com/pranav-94/InkFlow">
+                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
+                </a>
+                </div>
+                </div>
+             </div>
+
+
              <div className="flex mt-5 md:mt-0 items-center  justify-evenly">
              <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
  <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
@@ -127,28 +149,7 @@ const ProjectComp = ()=>{
                 </div>
             </div>
              </div>
-
-             <div className="flex flex-row items-center  justify-evenly mb-10"> 
-             <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
- <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
- <br />                         <img className="w-[40px] h-[40px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
-
- <br />                         <img className="w-[35px] h-[40px]" src="https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png" alt="" />
-</div>
-                <div>
-                    <a href="https://ink-flow-green.vercel.app/">
-                <img src="/BlogApp.png" className="w-[380px] h-[150px] md:h-[190px] rounded-md hover:brightness-75 transition-all duration-500 ease-in-out" alt=""/>
-                </a>
-
-                <div className="flex justify-evenly items-center w-[100%]">
-                <p className="mt-2">InkFlow</p>
-                <a href="https://github.com/pranav-94/InkFlow">
-                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" className="w-[25px] h-[25px]" alt="" />
-                </a>
-                </div>
-                </div>
-             </div>
-
+             
              <div className="flex flex-row items-center  justify-evenly mb-10"> 
              <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
  <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
