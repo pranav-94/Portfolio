@@ -26,7 +26,7 @@ const AboutComp = ()=>{
 
                <Nav/>
                <p className="w-[90%] flex justify-start text-[40px] text-[#90b8f8] pb-2">About</p>
-               <div className="flex flex-col justify-evenly items-center h-[400px]">
+               <div className="flex flex-col justify-evenly items-center md:h-[400px] h-[430px]">
                <Info/>
                </div>
 
@@ -38,7 +38,7 @@ const AboutComp = ()=>{
 
 const Info = ()=>{
     return(
-        <div className="w-[90%] md:text-[20px] text-[18px]  md:h-[350px] overflow-scroll">
+        <div className="w-[90%] md:text-[20px] text-[16px]  md:h-[350px] overflow-scroll">
             <p>I'm a Full Stack Developer based in India, with a passion for creating seamless and efficient web applications. I've been coding since 2022, and in that time, I've honed my skills in both front-end and back-end development. I'm constantly learning and exploring new technologies to stay ahead in this ever-evolving field.</p>
 
             <p className="w-[90%] flex justify-start mt-5 text-[40px] text-[#90b8f8] pb-2">Skills</p>
@@ -103,7 +103,7 @@ const SkillsComp = ()=>{
           </div>
 
           <div className="flex flex-col items-center">
-             <img className="w-[40px] h-[50px]" src="https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png" alt="" />
+             <img className="w-[50px] h-[50px]" src="https://seeklogo.com/images/H/hono-logo-85A5D1206D-seeklogo.com.png" alt="" />
              <p>Hono</p>
           </div>
 

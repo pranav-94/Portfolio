@@ -47,7 +47,7 @@ const handleMobileFun = ()=>{
                 <img className='rounded-full md:w-[70px] md:h-[70px] w-[70px] h-[70px] hover:scale-105 hover:rotate-1 shadow-lg transform-all duration-300 ease-in-out' src="../../ds_j6rNE_400x400.jpg" alt="" />
                 <div className="ml-3">
                 <p className="font-semibold text-[17px] text-[#90b8f8]">Pranav Latpate</p>
-                <p>Web Developer</p>
+                <p>Full-Stack Dev</p>
                 </div>
                 </div>
 
