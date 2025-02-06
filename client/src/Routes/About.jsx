@@ -1,5 +1,3 @@
-
-
 import Profile from "../Components/Profile"
 import Nav from '../Components/Navbar'
 import Particle from "../Components/ParticleBack"
