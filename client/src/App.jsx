@@ -2,7 +2,6 @@ import { BrowserRouter as Router,Routes, Route  } from "react-router-dom"
 import Home from "./Routes/About"
 import Projects from "./Routes/Projects"
 import Contact from "./Routes/Contact"
-// import About from "./Routes/About"
 
 const App = ()=>{
   return(

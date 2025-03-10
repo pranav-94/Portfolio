@@ -77,7 +77,7 @@ const SkillsComp = ()=>{
           </div>
 
           <div className="flex flex-col items-center">
-             <img className="w-[50px] h-[50px]" src="https://files.raycast.com/gqynjodt1h64pyb2x6c6ypv6hq91" alt="" />
+             <img className="w-[50px] h-[50px]" src="https://icon.icepanel.io/Technology/svg/Next.js.svg" alt="" />
              <p>Next Js</p>
           </div>
 
@@ -86,12 +86,12 @@ const SkillsComp = ()=>{
             <p>Tailwind Css</p>
             </div>
             <div className="flex flex-col items-center">
-            <img className='w-[50px] h-[50px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+            <img className='w-[50px] h-[50px]' src='https://icon.icepanel.io/Technology/svg/Express.svg' alt="" />
             <p>Express js</p>
             </div>
 
             <div className="flex flex-col items-center">
-            <img className='w-[50px] h-[50px]' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png' alt="" />
+            <img className='w-[50px] h-[50px]' src='https://icon.icepanel.io/Technology/svg/Git.svg' alt="" />
             <p>Git</p>
             </div>
 

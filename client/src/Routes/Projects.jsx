@@ -114,7 +114,7 @@ const ProjectComp = ()=>{
              <div className="flex mt-5 md:mt-0 items-center  justify-evenly">
              <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
  <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
- <br />             <img className='w-[40px] h-[40px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+ <br />             <img className='w-[40px] h-[40px]' src='https://icon.icepanel.io/Technology/svg/Express.svg' alt="" />
  <br />             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
 </div>
                 <div>
@@ -134,7 +134,7 @@ const ProjectComp = ()=>{
              <div className="flex flex-row items-center  justify-evenly mt-10 mb-10">      
              <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
  <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
- <br />             <img className='w-[40px] h-[40px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+ <br />             <img className='w-[40px] h-[40px]' src='https://icon.icepanel.io/Technology/svg/Express.svg' alt="" />
  <br />             <img className="w-[40px] h-[40px]" src="https://downloads.marketplace.jetbrains.com/files/14282/146547/icon/pluginIcon.png" alt="" />
 </div>
                 <div>
@@ -153,7 +153,7 @@ const ProjectComp = ()=>{
              <div className="flex flex-row items-center  justify-evenly mb-10"> 
              <div className="w-[30%] hidden md:flex  justify-evenly">             <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/354259/react.svg" alt="" />
  <br />              <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/452075/node-js.svg" alt="" />
- <br />             <img className='w-[40px] h-[40px]' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png' alt="" />
+ <br />             <img className='w-[40px] h-[40px]' src='https://icon.icepanel.io/Technology/svg/Express.svg' alt="" />
  <br />        <img className="w-[40px] h-[40px]" src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="" />
 
 </div>
