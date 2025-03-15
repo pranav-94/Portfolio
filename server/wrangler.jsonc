@@ -1,0 +1,43 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "server",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-15",
+  "vars":{
+    "SPOTIFY_CLIENT_ID" : "4fd560938cec404082513c14d28411e9",
+    "SPOTIFY_CLIENT_SECRET" : "a3e1e2ebe43d44d89ef4b315e2b2f193",
+    "SPOTIFY_REFRESH_TOKEN" : "AQD8PM1v27b4k4LpcRny6N-RAtCwiff-j2VwntG63vGeVafSx7NVnrBKqv-FxXU5ftqrjM-QrGVe1MG9O_Mix3P3aTg0WD9ANLDzHgmZgXY_kTK57I7vvbV7sE07PHXG0Og"
+  }
+  // "compatibility_flags": [
+  //   "nodejs_compat"
+  // ],
+  // "vars": {
+  //   "MY_VAR": "my-variable"
+  // },
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "MY_KV_NAMESPACE",
+  //     "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  //   }
+  // ],
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+  // "d1_databases": [
+  //   {
+  //     "binding": "MY_DB",
+  //     "database_name": "my-database",
+  //     "database_id": ""
+  //   }
+  // ],
+  // "ai": {
+  //   "binding": "AI"
+  // },
+  // "observability": {
+  //   "enabled": true,
+  //   "head_sampling_rate": 1
+  // }
+}
