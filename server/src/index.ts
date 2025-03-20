@@ -1,4 +1,6 @@
 import { Hono } from "hono";
+import { cors } from "hono/cors";
+
 
 const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`;
 const TOKEN_ENDPOINT = `https://accounts.spotify.com/api/token`;
@@ -67,6 +69,15 @@ const getNowPlaying = async (env: any) => {
 };
 
 const app = new Hono();
+
+app.use(
+  cors({
+    origin: "*", // Allow all origins (adjust as needed)
+    allowMethods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed HTTP methods
+    allowHeaders: ["Content-Type", "Authorization"], // Allowed headers
+    maxAge: 600, // Cache preflight response for 10 minutes
+  })
+);
 
 app.get("/", async (c) => {
   try {
