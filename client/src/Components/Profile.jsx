@@ -40,8 +40,8 @@ const handleMobileFun = ()=>{
 
          mobileState===true? <>
             
-            <div className="md:w-[30%] h-[200px]  flex justify-center items-center z-10">
-            <div className="md:w-[80%] w-[90%] h-[130px] bg-gray-800 rounded-lg flex flex-col items-center justify-evenly">
+            <div className="md:w-[30%] h-[200px]  flex justify-center items-center z-10 ">
+            <div className="md:w-[80%] w-[90%] h-[170px] bg-gray-800 rounded-lg flex flex-col items-center justify-evenly">
             <button className="md:hidden fixed top-[70px] right-7" onClick={handleMobileFun}></button>
 
                 <div className="w-[85%] flex items-center">
@@ -51,9 +51,7 @@ const handleMobileFun = ()=>{
                 <p>Full-Stack Dev</p>
                 </div>
                 </div>
-                <div className="absolute top-12 right-0">
                 <SpotifyProfile/>
-                </div>
 
                 <div className="flex justify-evenly w-[100%] text-[#90b8f8]">
                 <a href="https://github.com/pranav-94" target="blank">Github</a>
