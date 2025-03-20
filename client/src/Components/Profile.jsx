@@ -41,7 +41,7 @@ const handleMobileFun = ()=>{
          mobileState===true? <>
             
             <div className="md:w-[30%] h-[200px]  flex justify-center items-center z-10 ">
-            <div className="md:w-[80%] w-[90%] h-[170px] bg-gray-800 rounded-lg flex flex-col items-center justify-evenly">
+            <div className="md:w-[80%] w-[90%] h-[190px] bg-gray-800 rounded-lg flex flex-col items-center justify-evenly">
             <button className="md:hidden fixed top-[70px] right-7" onClick={handleMobileFun}></button>
 
                 <div className="w-[85%] flex items-center">
