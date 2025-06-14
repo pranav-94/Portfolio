@@ -7,7 +7,7 @@ const SpotifyProfile = ()=>{
 
     useEffect(()=>{
          const songData = async()=>{
-            const Data = await axios.get('https://server.ppranavvvvv918.workers.dev')
+            const Data = await axios.get('https://spotify_server.ppranavvvvv918.workers.dev')
             setSongData(Data.data)
             console.log(Data.data)
          }
